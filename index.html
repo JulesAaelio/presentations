@@ -1,49 +1,129 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>Alan TURING</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/220px-Alan_Turing_Aged_16.jpg">
+                <h1>Alan TURING</h1>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                <b>Born on :</b> 06.23.1912
+            </div>
+            <div>
+                <b>Dead on :</b> 06.07.1954 (41 yo.)
+            </div>
+        </section>
+        <section>
+                <h2>EDUCATION</h2>
+                <div>
+                    1934 : Mathematics license - King's college Cambridge
+                </div>
+                <div>
+                    1938 : Mathematical logic Ph. D - Princeton USA
+                </div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        </section>
+        <section>
+            <section>
+                <h1>CAREER</h1>
+            </section>
+            <section>
+                <h2>The Turing Machine</h2>
+                <div>
+                    <img src="https://i0.wp.com/www.worldofcomputing.net/wp-content/uploads/2013/01/turingMachine.gif?resize=400%2C274">
+                    <div>
+                        <ul>
+                            <li>Not a real machine</li>
+                            <li>Base of all automation theories</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>WWII : Enigma</h2>
+                <div class="row">
+                    <img src="https://www.larousse.fr/encyclopedie/data/images/1316030-Machine_%c3%a0_crypter_Enigma.jpg"/>
+                    <div>
+                        <ul>
+                            <li>German submarine communication encryption machine</li>
+                            <li>Usage weaknesses </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>1945-1947 : ACE </h2>
+                <div class="row">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Punch_cards_in_tray_for_Pilot_ACE_computer_built_at_the_National_Physical_Laboratory_c._1950_%289672239226%29.jpg/220px-Punch_cards_in_tray_for_Pilot_ACE_computer_built_at_the_National_Physical_Laboratory_c._1950_%289672239226%29.jpg">
+                    <div>
+                        <ul>
+                            <li>Automatic Computing Engine (ACE)</li>
+                            <li>Presented 1946</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">
+                    Automatic Computing Engine (ACE)
+                </aside>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1> AWARDS & FORFEITS</h1>
+            </section>
+            <section>
+                <div>1951 : Royal Socialty Member</div>
+                <div>1952 : Homosexual conviction</div>
+                <div>1954 : Death</div>
+                <div>2013 : Elisabeth II Posthumous pardon</div>
+
+            </section>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
